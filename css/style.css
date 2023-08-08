@@ -109,7 +109,7 @@ body {
   text-decoration: none;
   color: var(--navyblue);
   font-weight: 500;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: block;
@@ -125,17 +125,12 @@ body {
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .item:hover,
-.contacts-menu .item:focus {
+.contacts-menu .contact:hover,
+.contacts-menu .contact:focus {
   color: var(--iris);
 }
 
 /*Contacts*/
-.item {
-  padding: 24px 0;
-  margin-left: 40px;
-}
-
 .contacts-menu {
   margin-left: auto;
 }
@@ -233,7 +228,7 @@ body {
   line-height: 1.14;
 }
 
-.benefits.description {
+.benefits .description {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
@@ -319,7 +314,6 @@ body {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   padding-top: 30px;
   padding-bottom: 10px;
 }
